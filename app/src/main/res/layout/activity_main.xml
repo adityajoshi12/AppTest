@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/LoginTheme"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="test.labs.aditya.labs.apptest.MainActivity">
+
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="255dp"
+        android:layout_height="176dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/showImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Show Image"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/zomato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Zomato " />
+    </LinearLayout>
+</LinearLayout>
